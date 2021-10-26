@@ -46,6 +46,7 @@ function AllMeetupsPage() {
       <h1>All Meetups</h1>
       <MeetupList meetups={loadedMeetups} />
     </section>
+    
   );
 }
 

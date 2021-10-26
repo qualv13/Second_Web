@@ -12,7 +12,7 @@ function FavoritesPage() {
     let content;
 
     if(favoritesCtx.totalFavorites === 0) {
-        content = <p>You got no favorites yet. Do you want to <Link to='/' className="link">add some?</Link> </p>
+        content = <p><Link to='/' className="link">You got no favorites yet, <br /> do you want to add some?</Link> </p>
     } else {
         content = <MeetupList meetups={favoritesCtx.favorites} />
     }

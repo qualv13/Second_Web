@@ -20,6 +20,7 @@ body {
 }
 
 .text {
+  font-size: 50px;
   position: relative;
   content: '';
   top: 0;
@@ -51,8 +52,7 @@ body {
   position: relative;
   display: inline-block;
   height: 37px;
-  width: 15px;
-  
+  width: 15px;  
 }
 .bounceball:before {
   position: absolute;
@@ -96,7 +96,30 @@ h2 {
 }
 
 .link{
+  display: flex;
+  position: relative;
   text-decoration: none;
   color: black;
+  transition: font-size 2s, color 2s;
+    transform-origin: 0 0;
+}
+.link:hover{
+
+  color: #77002e;
+  font-size: 1.7rem;
+  
+  /*animation: makeBigger 700ms alternate;
+  animation-duration: 3s;*/
 }
 
+/*@keyframes makeBigger {
+  0%{
+    font-size: actual;
+  }
+  100%{
+    font-size: 2rem;
+    font-size-adjust: 10px;
+    transition: none;
+  }
+
+}*/
