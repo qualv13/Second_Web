@@ -25,7 +25,7 @@ function NewMeetupForm(props) {
     };
 
     //console.log(meetupData);
-    props.onAddMeetup(meetupData)
+    props.onAddMeetup(meetupData);
   }
 
   return (
@@ -52,8 +52,10 @@ function NewMeetupForm(props) {
             ref={descriptionInputRef}
           ></textarea>
         </div>
-        <div className={classes.action}>
-          <button>Add Meetup</button>
+        <div className={classes.actions}>
+          <button className={classes.btn}>
+            Add Meetup
+          </button>
         </div>
       </form>
     </Card>
