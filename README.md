@@ -39,6 +39,7 @@ cd Second_Web
 Simply open the `index.html` file in your browser.  
 No additional setup or server required.
 
+<!--
 ## 🗂️ Project Structure
 
 ```plaintext
@@ -47,6 +48,7 @@ Second_Web/
 ├── style.css        # CSS styling  
 ├── script.js        # JavaScript logic  
 ```
+-->
 
 ## 🤝 Contributing
 
